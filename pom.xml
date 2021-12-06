@@ -13,6 +13,7 @@
         <module>hiber-jpa</module>
         <module>using-spring</module>
         <module>snippets</module>
+        <module>algorithms</module>
     </modules>
 
     <properties>

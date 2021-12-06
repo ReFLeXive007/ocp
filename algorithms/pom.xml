@@ -9,15 +9,21 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hiber-jpa</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>algorithms</artifactId>
+    <packaging>pom</packaging>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-entitymanager</artifactId>
-            <version>5.</version>
-        </dependency>
-    </dependencies>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>fundamentals</module>
+        <module>sorting</module>
+        <module>search</module>
+        <module>graphs</module>
+        <module>strings</module>
+        <module>context</module>
+    </modules>
 
 </project>
